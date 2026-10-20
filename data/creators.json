@@ -1,0 +1,62 @@
+[
+  {
+    "published": true,
+    "category": "販売",
+    "role": "E&Cサポート㈱",
+    "name": "Fun Fun Kitchen",
+    "description": "[無添加・手作り]自家製フレッシュドレッシング",
+    "visual": "art",
+    "initial": "D",
+    "image": "images/creators/",
+    "imageAlt": "Fun Fun Kitchen",
+    "link": "#entry"
+  },
+  {
+    "published": true,
+    "category": "ワークショップ",
+    "role": "カコ企画",
+    "name": "ミツカルアート",
+    "description": "あなただけのテクスチャアート",
+    "visual": "craft",
+    "initial": "E",
+    "image": "images/creators/",
+    "imageAlt": "ミツカルアート",
+    "link": "#entry"
+  },
+  {
+    "published": true,
+    "category": "セミナー",
+    "role": "しなやかライフ研究所",
+    "name": "iDeCo × NISAセミナー",
+    "description": "iDeCo × NISAで叶える大人のお金の育て方",
+    "visual": "book",
+    "initial": "F",
+    "image": "images/creators/",
+    "imageAlt": "しなやかライフ研究所",
+    "link": "#entry"
+  },
+  {
+    "published": true,
+    "category": "個別相談",
+    "role": "尾花英里香",
+    "name": "minoréa",
+    "description": "「いいね」が選択肢に変わるミニセッション",
+    "visual": "book",
+    "initial": "G",
+    "image": "images/creators/",
+    "imageAlt": "尾花英里香",
+    "link": "#entry"
+  },
+  {
+    "published": true,
+    "category": "カテゴリ",
+    "role": "ロール",
+    "name": "ネーム",
+    "description": "ディスクリプションディスクリプションディスクリプションディスクリプションディスクリプションディスクリプションディスクリプションディスクリプションディスクリプションディスクリプションディスクリプションディスクリプションディスクリプション",
+    "visual": "book",
+    "initial": "G",
+    "image": "images/creators/sample.jpg",
+    "imageAlt": "作品画像",
+    "link": "#entry"
+  }
+]
