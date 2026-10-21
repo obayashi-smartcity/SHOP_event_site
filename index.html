@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="仕事帰りに立ち寄れる、アートと人に出会う夜のラウンジイベント。">
+  <meta name="description" content="私たちの「やってみたい」が、まちの未来をつくる。トークイベント・チャレンジショップ（みんまちSHOP）">
   <title>Empowering WOMEN</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js" defer></script>
@@ -11,24 +11,25 @@
 
 </head>
 <body>
-  <a class="skip-link" href="#main">本文へ移動</a>
   <header class="site-header" id="top">
     <div class="header-inner">
-      <a class="brand" href="#top" aria-label="YORIMICHI LOUNGE トップへ">
+      <a class="brand" href="#main" aria-label="Empowering WOMEN トップへ">
         <span class="brand-en">Empowering WOMEN</span><small>トークイベント・チャレンジショップ（みんまちSHOP）</small>
       </a>
       <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav">
         <span></span><span></span><span></span>
       </button>
       <nav class="global-nav" id="global-nav" aria-label="メインナビゲーション">
-        <a href="#about">コンセプト</a><a href="#creators">出店者</a><a href="#flow">当日の流れ</a><a href="#info">イベント概要</a><a href="#access">アクセス</a>
-        <a class="nav-cta" href="#entry">来場登録</a>
+        <a href="#concept">コンセプト</a>
+        <a href="#creators">出店者</a>
+        <a href="#gift">ギフト</a>
+        <a href="#info">イベント概要</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
+    <section class="hero" aria-labelledby="hero-title" id="hero">
       <img class="hero-image" src="images/hero.png" alt="会場のイメージ">
       <div class="hero-shade"></div>
       <div class="hero-content container">
@@ -40,27 +41,37 @@
           <p class="date"><strong>12/5</strong><span>SAT<br>13:00–17:30</span></p>
           <p>日本生命淀屋橋ビル<br>３階 O-CAFE</p>
         </div>
-        <a class="button button-primary" href="#entry">来場登録（無料）<span aria-hidden="true">↗</span></a>
+        <a class="button button-primary" href="#creators">出店者・商品を見る<span aria-hidden="true">↓</span></a>
       </div>
-      <a class="scroll-hint" href="#about">SCROLL<span></span></a>
+      <a class="scroll-hint">SCROLL<span></span></a>
+      <p class="hero-caption">※画像はイメージです。</p>
     </section>
 
-    <section class="section about" id="about">
+    <section class="section concept" id="concept">
       <div class="container split-layout">
         <div class="section-copy reveal">
-          <p class="section-kicker">ABOUT</p>
+          <p class="section-kicker">CONCEPT</p>
           <h2><span><em>「やってみたい」</em>が、まちの未来をつくる。</span></h2>
           <p>新しい商品やサービスを生み出し、未来に向かって挑戦する女性起業家が集まります。個性あふれる商品の販売やワークショップなど、つくり手と直接つながれるコンテンツをご用意。</p>
           <p>商品を手に取ること、体験すること、会話すること。その一つひとつが、新しい挑戦を後押しします。</p>
           <p>起業に関心がある方も、誰かの挑戦を応援したい方も。<br>新しい一歩と出会う時間をお楽しみください。</p>
         </div>
-        <figure class="image-frame reveal"><img src="images/about.jpg" alt="作品やクラフトが並ぶイベント会場のイメージ" loading="lazy"><figcaption>Discover something new after work.</figcaption></figure>
+        <figure class="image-frame reveal">
+          <img src="images/concept.png" alt="イベント会場のイメージ" loading="lazy">
+          <figcaption>Meet your next favorite.</figcaption>
+          <p class="image-note">※画像はイメージです。</p>
+        </figure>
       </div>
     </section>
 
     <section class="section creators" id="creators">
       <div class="container">
-        <div class="section-heading reveal"><div><p class="section-kicker light">SHOP</p><h2><span>多彩なジャンルで活躍する女性起業家。</span></h2></div><p>※カード内容はjsonファイルで増減可能。<br>写真・肩書・紹介文を差し替えてご利用ください。</p></div>
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker light">SHOP</p>
+            <h2><span>出店者・商品</span></h2>
+          </div>
+        </div>
         <div class="creator-grid">
           <article class="creator-card reveal"><span class="card-number">01</span><div class="creator-visual visual-art" aria-hidden="true">A</div><p class="category">ILLUSTRATION</p><h3>イラストレーター<br>山野 はる</h3><p>街の記憶をモチーフに、やわらかな色彩で作品を制作。</p><a href="#entry">詳しく見る <span>→</span></a></article>
           <article class="creator-card reveal"><span class="card-number">02</span><div class="creator-visual visual-craft" aria-hidden="true">C</div><p class="category">CRAFT</p><h3>クラフト作家<br>STUDIO LUNE</h3><p>素材の表情を生かした、暮らしに寄り添う小さな道具。</p><a href="#entry">詳しく見る <span>→</span></a></article>
@@ -69,44 +80,86 @@
       </div>
     </section>
 
-    <section class="section experience">
-      <div class="container experience-grid">
-        <figure class="wide-photo reveal"><img src="images/event.jpg" alt="夜景を背景に作品を楽しむイベントのイメージ" loading="lazy"></figure>
-        <div class="experience-copy reveal"><p class="section-kicker">EXPERIENCE</p><h2><span>見る、<br>話す、<br>味わう。</span></h2><p>展示や買い物だけではなく、短時間のワークショップや試食も予定。気になるブースを自分のペースで巡れます。</p><ul class="tag-list"><li>アート</li><li>クラフト</li><li>本・ZINE</li><li>スイーツ</li><li>ワークショップ</li></ul></div>
+
+    <section class="section gift" id="gift">
+      <div class="container gift-layout">
+        <div class="section-copy reveal">
+          <p class="section-kicker light">SPONSOR GIFT</p>
+          <h2><span><em>スポンサー企業</em>からのプレゼント</span></h2>
+          <p>本イベントにご協賛いただいている企業から、ご来場の皆さまへ素敵なプレゼントをご用意しています。受け取りをご希望の方は、事前にご予約（無料）のうえ、ぜひご来場ください。</p>
+          <ul class="gift-points">
+            <li>
+              <span class="gift-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M5 12v8h14v-8M12 8v12M12 8c-1.5-3-5-3.5-5-1.5S10 8 12 8zm0 0c1.5-3 5-3.5 5-1.5S14 8 12 8z"/></svg></span>
+              <span>ご来場の方に<br>プレゼント</span>
+            </li>
+            <li>
+              <span class="gift-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></span>
+              <span>予約（無料）で<br>受け取り可能</span>
+            </li>
+            <li>
+              <span class="gift-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span>
+              <span>数量限定では<br>ありません</span>
+            </li>
+          </ul>
+        </div>
+        <div class="gift-media reveal">
+          <p class="gift-catch" aria-hidden="true">ここでしか出会えない<br>うれしい特典！</p>
+          <div class="gift-photos">
+            <div class="gift-photo">画像を挿入<br>（横長／1点）</div>
+            <div class="gift-photo">画像を挿入<br>（縦長 or 正方形／1点）</div>
+          </div>
+        </div>
+        <div class="gift-footer reveal">
+          <a class="button button-dark" href="#">プレゼントの詳細を見る（みんまちSHOP）<span aria-hidden="true">→</span></a>
+          <p class="gift-note">※プレゼントの内容は変更になる場合があります。<br>※詳細はみんまちSHOPのサービス詳細ページをご確認ください。</p>
+        </div>
       </div>
+      <!-- セクションの装飾 -->
+      <!-- 
+      <svg class="gift-deco gift-deco--left" viewBox="0 0 120 160" aria-hidden="true"><path d="M60 160C55 110 40 70 15 30M45 95c-15-5-28-2-35 8 12 6 26 3 35-8zM35 70c-12-10-25-10-32-2 10 9 23 9 32 2zM52 120c10-12 25-14 35-6-10 10-25 12-35 6zM25 45c-5-14-2-27 8-33 4 13 0 25-8 33z"/></svg>
+      <svg class="gift-deco gift-deco--right" viewBox="0 0 120 160" aria-hidden="true"><path d="M60 160C65 110 80 70 105 30M75 95c15-5 28-2 35 8-12 6-26 3-35-8zM85 70c12-10 25-10 32-2-10 9-23 9-32 2zM68 120c-10-12-25-14-35-6 10 10 25 12 35 6zM95 45c5-14 2-27-8-33-4 13 0 25 8 33z"/></svg>
+      -->
     </section>
 
-    <section class="section flow" id="flow">
-      <div class="container">
-        <div class="section-title-center reveal"><p class="section-kicker">FLOW</p><h2>イベント当日の流れ</h2><p>入り方も、楽しみ方も、とてもシンプルです。</p></div>
-        <ol class="flow-list">
-          <li class="reveal"><span>01</span><div><h3>受付する</h3><p>事前登録画面、または当日受付でチェックイン。</p></div></li>
-          <li class="reveal"><span>02</span><div><h3>自由に巡る</h3><p>気になる作品、食、体験コンテンツを探します。</p></div></li>
-          <li class="reveal"><span>03</span><div><h3>つくり手と話す</h3><p>作品の背景や制作のきっかけに触れてみましょう。</p></div></li>
-          <li class="reveal"><span>04</span><div><h3>余韻を持ち帰る</h3><p>お気に入りや新しい視点を、次の日常へ。</p></div></li>
-        </ol>
-      </div>
-    </section>
 
     <section class="section info" id="info">
       <div class="container info-layout">
         <div class="reveal"><p class="section-kicker light">INFORMATION</p><h2>イベント概要</h2><p class="info-note">以下は内製化用の仮情報です。公開前に正式情報へ差し替えてください。</p></div>
         <dl class="info-list reveal">
           <div><dt>日時</dt><dd>2026年12月5日（土）<br>13:00〜17:30</dd></div>
-          <div><dt>会場</dt><dd>日本生命淀屋橋ビル　３階 O-CAFE<br>〒541-0041 大阪府大阪市中央区北浜3-5-29</dd></div>
-          <div><dt>参加費</dt><dd>無料<br><small>※販売・体験コンテンツは有料です</small></dd></div>
+          <div><dt>場所</dt><dd>日本生命淀屋橋ビル　３階 O-CAFE<br>〒541-0041 大阪府大阪市中央区北浜3-5-29</dd></div>
           <div><dt>主催</dt><dd>大阪商工会議所<br>株式会社日本政策金融公庫</dd></div>
           <div><dt>後援</dt><dd>株式会社大林組</dd></div>
+          <div><dt>対象者</dt><dd>大阪府内での創業に関心がある方、創業間もない方、創業支援者など<br><small>※小学生以上のお子様は保護者同伴で参加可<br>（未就学児は参加していただけません）</small></dd></div>
+          <div><dt>参加費</dt><dd>トークイベントは無料<br>チャレンジショップは有料<small>（出店者により参加費が異なります）</small></dd></div>
+          <div><dt>定員</dt><dd>80名 <small>※先着順（事前のお申込みが必要です）</small></dd></div>
         </dl>
       </div>
     </section>
 
     <section class="entry" id="entry">
-      <div class="container entry-inner reveal"><p class="section-kicker">ENTRY</p><h2>新しい一歩に、<br>会いに行こう。</h2><p>登録フォームへのURLは、下記ボタンの href を差し替えてください。</p><a class="button button-dark" href="#info">来場登録（無料）<span>↗</span></a></div>
+      <div class="container entry-inner reveal">
+        <p class="section-kicker">ENTRY</p>
+        <h2>新しい一歩に、<br>会いに行こう。</h2>
+        <p>入場には事前申込みが必要です。<br>11/27（金）までに下記リンクからお申込みください｡<br>開催約１週間前頃にメールで参加証をご本人宛にお送りいたします。</p>
+        <a class="button button-dark" href="https://www.osaka.cci.or.jp/event/seminar/202610/D13261007015.html">入場申込（無料）<span>↗</span></a>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><div class="brand footer-brand"><span class="brand-en">Empower WOMEN</span><small>トークイベント・チャレンジショップ（みんまちSHOP）</small></div><nav aria-label="フッターナビ"><a href="#about">ABOUT</a><a href="#creators">CREATORS</a><a href="#info">INFO</a><a href="#access">ACCESS</a></nav><p><small>© 20XX YORIMICHI PROJECT. SAMPLE SITE.</small></p></div></footer>
-  <button class="page-top" type="button" aria-label="ページ上部へ戻る">↑</button>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand footer-brand">
+        <span class="brand-en">Empower WOMEN</span><small>トークイベント・チャレンジショップ（みんまちSHOP）</small>
+      </div>
+      <nav aria-label="フッターナビ">
+        <a href="#concept">コンセプト</a>
+        <a href="#creators">出店者</a>
+        <a href="#gift">ギフト</a>
+        <a href="#info">イベント概要</a>
+      </nav>
+      <p><small>運営：株式会社大林組<br>© OBAYASHI CORPORATION, All rights reserved</small></p>
+    </div>
+  </footer>
 </body>
 </html>
