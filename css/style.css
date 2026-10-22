@@ -105,8 +105,13 @@ button { font: inherit; }
 /* 画像の上でも番号が読めるように影を付ける */
 .card-number { text-shadow: 0 1px 6px rgba(0, 0, 0, .35); }
 .creator-card .category { color: var(--color-rose-deep); font-size: .68rem; font-weight: 800; letter-spacing: .18em; margin: 22px 0 5px; }
-.creator-card h3 { margin: 0; font-family: var(--font-serif); font-size: 1.45rem; line-height: 1.5; overflow-wrap: anywhere; }
+.creator-card h3 { margin: 0; font-family: var(--font-serif); font-size: 1.35rem; line-height: 1.5; overflow-wrap: anywhere; }
 .creator-card > a { margin-top: 20px; display: flex; justify-content: space-between; border-top: 1px solid var(--color-line); padding-top: 15px; font-weight: 700; font-size: .84rem; color: var(--color-rose-deep); }
+/* タグ */
+.creator-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 0; padding: 0; list-style: none; }
+.creator-tags li { padding: 2px 12px; border-radius: 999px; background: var(--color-pink-light); color: var(--color-rose-deep); font-size: .72rem; font-weight: 700; line-height: 1.7; letter-spacing: .05em; white-space: nowrap; }
+/* タグがあるときは category との間隔を詰める */
+.creator-tags + .category { margin-top: 10px; }
 
 /* スポンサーギフト */
 .gift { position: relative; overflow: hidden; background: var(--color-base); }
@@ -139,9 +144,13 @@ button { font: inherit; }
 .info-list div { display: grid; grid-template-columns: 150px 1fr; gap: 24px; padding: 25px 0; border-bottom: 1px solid rgba(201, 86, 111, .22); }
 .info-list dt { color: var(--color-rose-deep); font-weight: 800; }
 .info-list dd { margin: 0; }
+/* 地図 */
+.info-map { margin-top: 24px; }
+.info-map iframe { display: block; width: 100%; aspect-ratio: 3 / 5; border: 0; border-radius: var(--radius); box-shadow: var(--shadow); }
+.info-map-link { display: inline-block; margin-top: 12px; font-size: .84rem; font-weight: 700; color: var(--color-rose-deep); }
 
 /* エントリー */
-.entry { padding-block: 110px; text-align: center; background: linear-gradient(105deg, #f6c6cf, #fbe0e5 55%, #fde3d6); color: var(--color-ink); }
+.entry { padding-block: 110px; text-align: center; background: linear-gradient(105deg, #fdf5f6, #fbe0e5 55%, #fde3d6); color: var(--color-ink); }
 .entry .section-kicker { color: var(--color-rose-deep); }
 .entry-inner { max-width: 780px; }
 .entry h2 { font-size: clamp(2.5rem, 5vw, 5rem);  }

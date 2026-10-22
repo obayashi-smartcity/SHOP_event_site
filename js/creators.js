@@ -32,6 +32,23 @@
     return visual;
   };
 
+  // タグ部分：tags 配列があれば <ul> を作る、なければ null
+  const createTags = (tags) => {
+    if (!Array.isArray(tags)) return null;
+    const list = tags.filter((tag) => typeof tag === 'string' && tag.trim() !== '');
+    if (list.length === 0) return null;
+
+    const ul = document.createElement('ul');
+    ul.className = 'creator-tags';
+    ul.setAttribute('aria-label', 'タグ');
+    list.forEach((tag) => {
+      const li = document.createElement('li');
+      li.textContent = tag.trim();
+      ul.append(li);
+    });
+    return ul;
+  };
+
   // カード1枚分のHTML要素を作る
   const createCard = (item, index) => {
     const article = document.createElement('article');
@@ -54,8 +71,12 @@
     const link = document.createElement('a');
     link.href = item.link || '#entry';
     link.innerHTML = '詳しく見る <span>→</span>';
+    // 変更前
+    // article.append(num, createVisual(item), category, h3, desc, link);
+    // 変更後（タグがない場合は null になるので filter で除外）
+    const tags = createTags(item.tags);
+    article.append(...[num, createVisual(item), tags, category, h3, desc, link].filter(Boolean));
 
-    article.append(num, createVisual(item), category, h3, desc, link);
     return article;
   };
 
