@@ -44,7 +44,7 @@ button { font: inherit; }
 .header-inner { height: 100%; width: min(calc(100% - 48px), 1320px); margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .brand { display: inline-flex; align-items: baseline; gap: 8px; white-space: nowrap; }
 .brand-ja { font-family: var(--font-serif); font-size: 1.35rem; letter-spacing: .12em; }
-.brand-en { font-family: Georgia, serif; font-style: italic; font-size: 1.6rem; color: var(--color-rose-deep); }
+.brand-en { font-family: Georgia, serif; font-style: normal; font-size: 1.7rem; color: var(--color-rose-deep); }
 .brand small { font-size: .58rem; letter-spacing: .14em; }
 .global-nav { display: flex; align-items: center; gap: clamp(18px, 2vw, 34px); font-size: .86rem; font-weight: 700; }
 .global-nav a { position: relative; }
