@@ -107,11 +107,18 @@ button { font: inherit; }
 .creator-card .category { color: var(--color-rose-deep); font-size: .68rem; font-weight: 800; letter-spacing: .18em; margin: 22px 0 5px; }
 .creator-card h3 { margin: 0; font-family: var(--font-serif); font-size: 1.35rem; line-height: 1.5; overflow-wrap: anywhere; }
 .creator-card > a { margin-top: 20px; display: flex; justify-content: space-between; border-top: 1px solid var(--color-line); padding-top: 15px; font-weight: 700; font-size: .84rem; color: var(--color-rose-deep); }
+/* カード全体をクリック可能にする */
+.creator-card > a::after {content: ""; position: absolute; inset: 0; z-index: 2; border-radius: var(--radius); }
+/* ホバー時にカードを少し浮かせる (on/off可能、いらなければコメントアウト)*/
+/* .creator-card { transition: transform .25s, box-shadow .25s; }
+.creator-card:hover,
+.creator-card:focus-within { transform: translateY(-4px); box-shadow: 0 26px 60px rgba(201, 86, 111, .2); } */
 /* タグ */
 .creator-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 0; padding: 0; list-style: none; }
 .creator-tags li { padding: 2px 12px; border-radius: 999px; background: var(--color-pink-light); color: var(--color-rose-deep); font-size: .72rem; font-weight: 700; line-height: 1.7; letter-spacing: .05em; white-space: nowrap; }
 /* タグがあるときは category との間隔を詰める */
 .creator-tags + .category { margin-top: 10px; }
+
 
 /* スポンサーギフト */
 .gift { position: relative; overflow: hidden; background: var(--color-base); }
