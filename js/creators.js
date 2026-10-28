@@ -80,6 +80,16 @@
     return article;
   };
 
+  // 配列をランダムに並べ替える（Fisher–Yates法）
+  const shuffle = (array) => {
+    const result = [...array];
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  };
+
   // script.js の準備ができていればすぐ、まだなら完了を待ってアニメーション対象に登録
   const applyReveal = (cards) => {
     if (window.observeReveal) {
@@ -95,8 +105,7 @@
       return res.json();
     })
     .then((data) => {
-      const cards = data
-        .filter((item) => item.published !== false)
+      const cards = shuffle(data.filter((item) => item.published !== false))
         .map(createCard);
       grid.replaceChildren(...cards); // 成功したときだけ置き換える
       applyReveal(cards);
