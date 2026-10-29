@@ -153,7 +153,7 @@
     "initial": "G",
     "image": "images/shop/尾花英里香/尾花英里香 サービス画像.png",
     "imageAlt": "尾花英里香",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001387&ServiceEventId=E000011996"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001387&ServiceEventId=E000011996"
   },
   {
     "published": true,
@@ -166,7 +166,7 @@
     "initial": "G",
     "image": "images/shop/MHDL 建築デザイン造形研究室/7_DSC_7934　瞑想.jpg",
     "imageAlt": "作品画像",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001439&ServiceEventId=E000012001"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001439&ServiceEventId=E000012001"
   },
   {
     "published": true,
@@ -179,7 +179,7 @@
     "initial": "G",
     "image": "images/shop/美姿勢コンシェルジュ/美姿勢コンシェルジュ サービス画像.jpg",
     "imageAlt": "作品画像",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001384&ServiceEventId=E000011981"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001384&ServiceEventId=E000011981"
   },
   {
     "published": true,
@@ -192,7 +192,7 @@
     "initial": "G",
     "image": "images/shop/株式会社湖光商事/株式会社湖光商事 サービス画像.jpg",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001385&ServiceEventId=E000012005"
   },
   {
     "published": true,
@@ -205,7 +205,7 @@
     "initial": "G",
     "image": "images/shop/365+1/365＋1サービス画像.jpg",
     "imageAlt": "作品画像",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001407&ServiceEventId=E000011997"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001407&ServiceEventId=E000011997"
   },
   {
     "published": true,
@@ -218,7 +218,7 @@
     "initial": "G",
     "image": "images/shop/時々珈琲焙煎所/時々珈琲焙煎所サービス画像.jpg",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001441&ServiceEventId=E000012003"
   },
   {
     "published": true,
@@ -231,7 +231,7 @@
     "initial": "G",
     "image": "images/shop/今日も今日とてフォカッチャ/サービズ画像_1.png",
     "imageAlt": "作品画像",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001369&ServiceEventId=E000011980"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001369&ServiceEventId=E000011980"
   },
   {
     "published": false,
