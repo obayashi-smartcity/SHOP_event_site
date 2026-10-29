@@ -61,7 +61,7 @@ button { font: inherit; }
 .hero-shade { background: linear-gradient(90deg, rgba(253,245,246,.96) 0%, rgba(253,245,246,.82) 38%, rgba(253,245,246,.1) 72%), linear-gradient(0deg, rgba(251,230,234,.55), transparent 45%); }
 .hero-content { position: relative; z-index: 1; padding-top: var(--header-height); }
 .eyebrow, .section-kicker { margin: 0 0 16px; font-size: .75rem; letter-spacing: .28em; font-weight: 800; color: var(--color-rose-deep); }
-.hero h1 { margin: 0; font-family: var(--font-serif); font-weight: 500; font-size: clamp(2.0rem, 4.4vw, 4.8rem); line-height: 1.22; letter-spacing: .05em; }
+.hero h1 { margin: 0; font-family: var(--font-serif); font-weight: 500; font-size: clamp(2.0rem, 4.4vw, 3.5rem); line-height: 1.22; letter-spacing: .05em; }
 /* ヒーロー見出し：中央揃えのロゴ風タイトル */
 .hero h1.hero-title { width: fit-content; text-align: center; font-family: var(--font-sans); font-weight: 700; line-height: 1.3; letter-spacing: .04em; }
 .hero-title > span { display: block; }
@@ -95,6 +95,7 @@ button { font: inherit; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 40px; margin-bottom: 56px; }
 .section-heading > p { max-width: 420px; }
 .section-kicker.light { color: var(--color-rose-deep); }
+
 /* 出店者カード */
 .creators { background: var(--color-pink-light); color: var(--color-ink); overflow: hidden; }
 .creator-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
@@ -114,16 +115,11 @@ button { font: inherit; }
 .creator-card > a { margin-top: 20px; display: flex; justify-content: space-between; border-top: 1px solid var(--color-line); padding-top: 15px; font-weight: 700; font-size: .84rem; color: var(--color-rose-deep); }
 /* カード全体をクリック可能にする */
 .creator-card > a::after {content: ""; position: absolute; inset: 0; z-index: 2; border-radius: var(--radius); }
-/* ホバー時にカードを少し浮かせる (on/off可能、いらなければコメントアウト)*/
-/* .creator-card { transition: transform .25s, box-shadow .25s; }
-.creator-card:hover,
-.creator-card:focus-within { transform: translateY(-4px); box-shadow: 0 26px 60px rgba(201, 86, 111, .2); } */
 /* タグ */
 .creator-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 0; padding: 0; list-style: none; }
 .creator-tags li { padding: 2px 12px; border-radius: 999px; background: var(--color-pink-light); color: var(--color-rose-deep); font-size: .72rem; font-weight: 700; line-height: 1.7; letter-spacing: .05em; white-space: nowrap; }
 /* タグがあるときは category との間隔を詰める */
 .creator-tags + .category { margin-top: 10px; }
-
 
 /* スポンサーギフト */
 .gift { position: relative; overflow: hidden; background: var(--color-base); }
@@ -134,15 +130,21 @@ button { font: inherit; }
 .gift-icon { flex: 0 0 54px; display: grid; place-items: center; width: 54px; height: 54px; border-radius: 50%; background: var(--color-pink-light); }
 .gift-icon svg { width: 26px; height: 26px; fill: none; stroke: var(--color-rose-deep); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 /* 手書き風キャッチ */
-.gift-catch { position: relative; width: fit-content; margin: 0 24px 18px auto; font-family: "Klee One", "Hiragino Maru Gothic ProN", var(--font-sans); font-size: 1.05rem; font-weight: 600; line-height: 1.5; text-align: center; color: var(--color-rose-deep); transform: rotate(-6deg); }
+.gift-catch { position: absolute; top: -28px; right: 0; z-index: 2; margin: 0; width: fit-content; font-family: "Klee One", "Hiragino Maru Gothic ProN", var(--font-sans); font-size: 1.05rem; font-weight: 600; line-height: 1.5; text-align: center; color: var(--color-rose-deep); transform: rotate(10deg); }
 .gift-catch::before, .gift-catch::after { content: ""; position: absolute; top: 50%; width: 2px; height: 34px; background: var(--color-rose); }
 .gift-catch::before { left: -20px; transform: translateY(-50%) rotate(-25deg); }
 .gift-catch::after { right: -20px; transform: translateY(-50%) rotate(25deg); }
 /* 画像 */
-.gift-photos { display: grid; grid-template-columns: 1.4fr 1fr; gap: 14px; }
-.gift-photo, .gift-photos img { width: 100%; aspect-ratio: 4 / 3.4; object-fit: cover; border-radius: var(--radius); }
-.gift-photos img { box-shadow: var(--shadow); }
-.gift-photo { display: grid; place-items: center; text-align: center; font-size: .78rem; line-height: 1.6; color: var(--color-muted); background: var(--color-pink-light); }
+/* 画像：2枚を同じサイズで左右にずらして配置 */
+.gift-photos { display: flex; flex-direction: column; gap: 14px; padding: 4px 6px 12px; }
+.gift-banner { width: 70%; margin: 0; padding: 6px; background: #fff; border-radius: 18px; box-shadow: 0 2px 6px rgba(201, 86, 111, .08), 0 18px 40px rgba(201, 86, 111, .16); transition: transform .35s ease, box-shadow .35s ease; }
+.gift-banner img { aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; }
+/* 1枚目：左寄せ・少し左に傾ける */
+.gift-banner:nth-child(odd)  { align-self: flex-start; transform: rotate(-1.5deg); }
+/* 2枚目：右寄せ・少し右に傾ける */
+.gift-banner:nth-child(even) { align-self: flex-end;   transform: rotate(1.5deg); }
+/* ホバーで傾きを戻して浮かせる */
+.gift-banner:hover { transform: translateY(-4px) rotate(0deg); box-shadow: 0 4px 10px rgba(201, 86, 111, .1), 0 26px 56px rgba(201, 86, 111, .24); }
 /* ギフトバナー：切り抜かずに元の比率で表示 */
 .gift-photos img.gift-banner { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; }
 /* 下段（ボタン＋注意書き） */
@@ -197,6 +199,8 @@ button { font: inherit; }
   .flow-list li:nth-child(2) { border-right: 1px solid var(--color-line); }
   .gift-layout { grid-template-columns: minmax(0, 1fr); }
   .gift-catch { margin-inline: auto; }
+  .gift-catch { position: relative; top: auto; right: auto; margin: 0 auto 18px; transform: none;}
+  .gift-photos { max-width: 620px; margin-inline: auto; }
   .info-layout { gap: 6vw; }
 }
 /* スマートフォン表示 */
@@ -230,7 +234,8 @@ button { font: inherit; }
   .flow-list h3 { margin-top: 0; }
   .gift-points { flex-direction: column; }
   .gift-footer { flex-direction: column; align-items: stretch; gap: 16px; }
-  .gift-photos { grid-template-columns: minmax(0, 1fr); }
+  .gift-photos { gap: 16px; padding: 0; }
+  .gift-banner:nth-child(n) { width: 100%; transform: none; }
   .info-list div { grid-template-columns: 86px 1fr; gap: 14px; }
   .access-photo img { border-radius: 0 44px 0 44px; }
   .entry { padding-block: 80px; }
