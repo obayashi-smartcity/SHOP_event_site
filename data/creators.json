@@ -3,14 +3,40 @@
     "published": true,
     "category": "ワークショップ",
     "tags": ["アート体験", "子供の学び", "インテリア"],
-    "role": "カコ企画",
+    "role": "『フレバコ』アートワークショップ byカコ企画",
     "name": "あなただけのテクスチャーアート ～白い和織物に描く、上手い下手のないアート体験～",
     "description": "白い和織物に描く、上手い下手のないアート体験",
     "visual": "craft",
     "initial": "E",
-    "image": "images/shop/カコ企画/カコ企画　サービス画像.png",
+    "image": "images/shop/カコ企画/サービス画像_差し替え.png",
     "imageAlt": "ミツカルアート",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001409&ServiceEventId=E000011999"
+  },
+  {
+    "published": true,
+    "category": "販売",
+    "tags": ["資産形成", "", ""],
+    "role": "しなやかライフ研究所",
+    "name": "【書籍販売】家計簿なしでも一生困らないお金の整え方",
+    "description": "家族から相談される私になる。",
+    "visual": "book",
+    "initial": "F",
+    "image": "images/shop/しなやかライフ研究所/書籍_2.png",
+    "imageAlt": "しなやかライフ研究所",
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001418&ServiceEventId=E000011978"
+  },
+  {
+    "published": true,
+    "category": "販売",
+    "tags": ["資産形成", "", ""],
+    "role": "しなやかライフ研究所",
+    "name": "【書籍販売】知識ゼロから始める「女性ひとり起業ＢＯＯＫ」（電波社）",
+    "description": "起業・副業・フリーランス！自分らしい働き方を実現するお金のバイブル！",
+    "visual": "book",
+    "initial": "F",
+    "image": "images/shop/しなやかライフ研究所/書籍_1.png",
+    "imageAlt": "しなやかライフ研究所",
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001419&ServiceEventId=E000011979"
   },
   {
     "published": true,
@@ -23,7 +49,7 @@
     "initial": "F",
     "image": "images/shop/しなやかライフ研究所/しなやかライフ研究所 サービス画像.jpg",
     "imageAlt": "しなやかライフ研究所",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001383&ServiceEventId=E000011977"
   },
   {
     "published": true,
@@ -36,7 +62,7 @@
     "initial": "G",
     "image": "images/shop/floraがっこう/floraがっこうサービス画像.png",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001371&ServiceEventId=E000011995"
   },
   {
     "published": true,
@@ -75,7 +101,7 @@
     "initial": "G",
     "image": "images/shop/合同会社bellecoloris/合同会社bellecoloris サービス画像.png",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001373&ServiceEventId=E000011982"
   },
   {
     "published": true,
@@ -88,7 +114,7 @@
     "initial": "G",
     "image": "images/shop/オーラルユニバース/オーラルユニバースイベント専用サイト用サムネイル.png",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001376&ServiceEventId=E000012000"
   },
   {
     "published": true,
@@ -101,7 +127,7 @@
     "initial": "D",
     "image": "images/shop/Fun Fun Kitchen/Fun Fun Kitchenサービス画像①.png",
     "imageAlt": "Fun Fun Kitchen",
-    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001216&ServiceEventId=E000011165"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001374&ServiceEventId=E000011984"
   },
   {
     "published": true,
@@ -114,7 +140,7 @@
     "initial": "D",
     "image": "images/shop/Fun Fun Kitchen/Fun Fun Kitchenサービス画像②.png",
     "imageAlt": "Fun Fun Kitchen",
-    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001216&ServiceEventId=E000011165"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001440&ServiceEventId=E000012002"
   },
   {
     "published": true,
@@ -127,33 +153,20 @@
     "initial": "G",
     "image": "images/shop/尾花英里香/尾花英里香 サービス画像.png",
     "imageAlt": "尾花英里香",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001387&ServiceEventId=E000011996"
   },
   {
     "published": true,
     "category": "ワークショップ",
     "tags": ["建築デザイン", "アート体験", "家・店づくり"],
     "role": "MHDL 建築デザイン造形研究室",
-    "name": "建築デザイン　ワークショップ（大人）",
+    "name": "大人もこどもも楽しめる♪建築デザイン　ワークショップ",
     "description": "手描き図面と模型で、未来の自邸やお店をデザイン",
     "visual": "book",
     "initial": "G",
     "image": "images/shop/MHDL 建築デザイン造形研究室/7_DSC_7934　瞑想.jpg",
     "imageAlt": "作品画像",
-    "link": "#entry"
-  },
-  {
-    "published": true,
-    "category": "ワークショップ",
-    "tags": ["建築デザイン", "子どもの学び", "アート体験"],
-    "role": "MHDL 建築デザイン造形研究室",
-    "name": "建築デザイン　ワークショップ（こども）",
-    "description": "図面と模型づくりで、子どもの想像力をかたちに",
-    "visual": "book",
-    "initial": "G",
-    "image": "images/shop/MHDL 建築デザイン造形研究室/7_DSC_7934　瞑想.jpg",
-    "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001439&ServiceEventId=E000012001"
   },
   {
     "published": true,
@@ -166,7 +179,7 @@
     "initial": "G",
     "image": "images/shop/美姿勢コンシェルジュ/美姿勢コンシェルジュ サービス画像.jpg",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001384&ServiceEventId=E000011981"
   },
   {
     "published": true,
@@ -192,7 +205,7 @@
     "initial": "G",
     "image": "images/shop/365+1/365＋1サービス画像.jpg",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001407&ServiceEventId=E000011997"
   },
   {
     "published": true,
@@ -218,7 +231,7 @@
     "initial": "G",
     "image": "images/shop/今日も今日とてフォカッチャ/サービズ画像_1.png",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001369&ServiceEventId=E000011980"
   },
   {
     "published": false,

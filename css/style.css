@@ -149,8 +149,11 @@ button { font: inherit; }
 .gift-photos img.gift-banner { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; }
 /* 下段（ボタン＋注意書き） */
 .gift-footer { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; gap: 32px; }
-.gift-footer .button-dark { margin-top: 0; }
+.gift-footer .button-green { margin-top: 0; }
+.gift-footer .button-orange { margin-top: 0; }
 .gift-note { margin: 0; font-size: .72rem; line-height: 1.8; color: var(--color-muted); }
+.button-green { background: #244938; color: #fff; margin-top: 20px; }
+.button-orange { background: #e98604; color: #fff; margin-top: 20px; }
 
 /* イベント概要 */
 .info { background: linear-gradient(135deg, var(--color-pink-light), var(--color-pink-soft)); color: var(--color-ink); }
