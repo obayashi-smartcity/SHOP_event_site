@@ -101,7 +101,20 @@
     "initial": "G",
     "image": "images/shop/合同会社bellecoloris/合同会社bellecoloris サービス画像.png",
     "imageAlt": "作品画像",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001373&ServiceEventId=E000011982"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001373&ServiceEventId=E000011982"
+  },
+  {
+    "published": true,
+    "category": "販売",
+    "tags": ["手に入る", "世界観にふれる", ""],
+    "role": "合同会社bellecoloris",
+    "name": "〈無料〉オリジナルグッズプレゼント",
+    "description": "bellecolorisのオリジナルグッズプレゼント！",
+    "visual": "book",
+    "initial": "G",
+    "image": "images/sponsor_1.png",
+    "imageAlt": "作品画像",
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001434&ServiceEventId=E000011983"
   },
   {
     "published": true,
@@ -141,6 +154,19 @@
     "image": "images/shop/Fun Fun Kitchen/Fun Fun Kitchenサービス画像②.png",
     "imageAlt": "Fun Fun Kitchen",
     "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001440&ServiceEventId=E000012002"
+  },
+  {
+    "published": true,
+    "category": "販売",
+    "tags": ["手に入る", "世界観にふれる", ""],
+    "role": "Fun Fun Kitchen",
+    "name": "〈無料〉オリジナルグッズプレゼント",
+    "description": "Fun Fun Kitchenのオリジナルグッズプレゼント！",
+    "visual": "art",
+    "initial": "D",
+    "image": "images/sponsor_2.png",
+    "imageAlt": "Fun Fun Kitchen",
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001435&ServiceEventId=E000011986"
   },
   {
     "published": true,
