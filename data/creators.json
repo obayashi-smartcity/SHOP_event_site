@@ -10,7 +10,7 @@
     "initial": "E",
     "image": "images/shop/カコ企画/サービス画像_差し替え.png",
     "imageAlt": "ミツカルアート",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001409&ServiceEventId=E000011999"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001409&ServiceEventId=E000011999"
   },
   {
     "published": true,
@@ -23,7 +23,7 @@
     "initial": "F",
     "image": "images/shop/しなやかライフ研究所/書籍_2.png",
     "imageAlt": "しなやかライフ研究所",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001418&ServiceEventId=E000011978"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001418&ServiceEventId=E000011978"
   },
   {
     "published": true,
@@ -36,7 +36,7 @@
     "initial": "F",
     "image": "images/shop/しなやかライフ研究所/書籍_1.png",
     "imageAlt": "しなやかライフ研究所",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001419&ServiceEventId=E000011979"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001419&ServiceEventId=E000011979"
   },
   {
     "published": true,
@@ -49,7 +49,7 @@
     "initial": "F",
     "image": "images/shop/しなやかライフ研究所/しなやかライフ研究所 サービス画像.jpg",
     "imageAlt": "しなやかライフ研究所",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001383&ServiceEventId=E000011977"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001383&ServiceEventId=E000011977"
   },
   {
     "published": true,
@@ -62,7 +62,7 @@
     "initial": "G",
     "image": "images/shop/floraがっこう/floraがっこうサービス画像.png",
     "imageAlt": "作品画像",
-    "link": "https://shop.machiapps.com/Minmachi_UI/ServiceDetail?ServiceId=S000001371&ServiceEventId=E000011995"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001371&ServiceEventId=E000011995"
   },
   {
     "published": true,
@@ -75,7 +75,7 @@
     "initial": "G",
     "image": "images/shop/株式会社ダリアジェンヌ/株式会社ダリアジェンヌ 化粧品画像.png",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001445&ServiceEventId=E000012265"
   },
   {
     "published": true,
@@ -88,7 +88,7 @@
     "initial": "G",
     "image": "images/shop/株式会社ダリアジェンヌ/株式会社ダリアジェンヌ 食品画像.png",
     "imageAlt": "作品画像",
-    "link": "#entry"
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001446&ServiceEventId=E000012266"
   },
   {
     "published": true,
@@ -232,6 +232,19 @@
     "image": "images/shop/365+1/365＋1サービス画像.jpg",
     "imageAlt": "作品画像",
     "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001407&ServiceEventId=E000011997"
+  },
+  {
+    "published": true,
+    "category": "販売",
+    "tags": ["味わえる", "手に入る", ""],
+    "role": "365+1",
+    "name": "【単品】クリスマス限定 焼き菓子",
+    "description": "元ホテルパティシエが贈るクリスマス限定焼き菓子",
+    "visual": "book",
+    "initial": "G",
+    "image": "images/shop/365+1/365＋1サービス画像.jpg",
+    "imageAlt": "作品画像",
+    "link": "https://shop.machiapps.com/ServiceDetail?ServiceId=S000001436&ServiceEventId=E000012009"
   },
   {
     "published": true,
